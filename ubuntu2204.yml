@@ -9,19 +9,19 @@
   gather_facts: true
   roles:
     - name: toolchain-golang
-    - name: packages
+    - name: system-package
       vars:
         name: neofetch
         version: latest
-    - name: packages
+    - name: system-package
       vars:
         name: htop
         version: latest
-    - name: packages
+    - name: system-package
       vars:
         name: tree
         version: latest
-    - name: packages
+    - name: system-package
       vars:
         name: cowsay
         version: latest
