@@ -1,0 +1,10 @@
+---
+- hosts: all
+  vars:
+    user: ubuntu
+    group: ubuntu
+    limits_user: ubuntu
+    homedir: /home/ubuntu
+  become: true
+  gather_facts: true
+  roles:

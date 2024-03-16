@@ -1,0 +1,15 @@
+- hosts: all
+  vars:
+    bin_dir: C:\Windows
+    greenbay_platform_name: windows-64
+    curator_platform_name: windows-64
+    greenbay_yaml_location: C:\greenbay.yaml
+    distro_name: windows-2022
+    homedir: C:\cygwin\home\Administrator
+    user: Administrator
+    group: Administrator
+    os_version: 2022-testing
+    ansible_shell_type: powershell
+  become_method: runas
+  become_user: Administrator
+  roles:

@@ -1,0 +1,10 @@
+- hosts: all
+  vars:
+    user: ec2-user
+    group: ec2-user
+    limits_user: ec2-user
+    homedir: /home/ec2-user
+    distro_name: rhel90
+  become: true
+  gather_facts: true
+  roles:
