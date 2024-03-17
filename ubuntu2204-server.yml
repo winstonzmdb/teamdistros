@@ -25,7 +25,10 @@
     - name: system-package
       vars:
         name: cowsay
-        version: latest
+        version: latest    
+    - name: folder
+      vars:
+        path: /opt/temp
     - name: binary
       vars:
         url: https://s3.aws.com/
