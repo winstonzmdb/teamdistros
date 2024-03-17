@@ -1,0 +1,9 @@
+- name: URL
+  type: input
+  default:
+- name: Destination
+  type: input
+  default: /opt/
+- name: Test
+  type: input
+  default: 

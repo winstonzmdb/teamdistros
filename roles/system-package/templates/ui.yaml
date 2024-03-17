@@ -1,0 +1,9 @@
+- name: Name
+  type: input
+  default:
+- name: Version
+  type: input
+  default: latest
+- name: Test
+  type: input
+  default: 

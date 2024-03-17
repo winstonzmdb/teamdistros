@@ -1,0 +1,6 @@
+- name: Path
+  type: input
+  default:
+- name: Permissions
+  type: input
+  default: 755
