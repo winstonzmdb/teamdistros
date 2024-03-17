@@ -8,7 +8,9 @@
   become: true
   gather_facts: true
   roles:
-    - name: toolchain-golang
+    - name: toolchain
+      vars:
+        name: golang
     - name: system-package
       vars:
         name: neofetch
