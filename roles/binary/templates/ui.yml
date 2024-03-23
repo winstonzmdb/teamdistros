@@ -4,6 +4,7 @@
 - name: Destination
   type: input
   default: /opt/
+  validation: ^/opt/.*
 - name: Test
   type: input
   default: 
