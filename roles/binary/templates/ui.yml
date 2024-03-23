@@ -5,6 +5,7 @@
   type: input
   default: /opt/
   validation: ^/opt/.*
+  description: Required to reside in /opt
 - name: Test
   type: input
   default: 
