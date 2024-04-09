@@ -7,6 +7,9 @@
     - nodejs
     - php
     - python
+- name: Verion
+  type: input
+  default: latest
 - name: Test
   type: input
   default: 
