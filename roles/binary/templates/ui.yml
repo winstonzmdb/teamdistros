@@ -1,11 +1,11 @@
 - name: URL
-  type: input
+  component: input
   default:
 - name: Destination
-  type: input
+  component: input
   default: /opt/
   validation: ^/opt/.*
   description: Required to reside in /opt
 - name: Test
-  type: input
+  component: input
   default: 

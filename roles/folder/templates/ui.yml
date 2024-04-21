@@ -1,6 +1,6 @@
 - name: Path
-  type: input
+  component: input
   default:
 - name: Permissions
-  type: input
+  component: input
   default: 755
