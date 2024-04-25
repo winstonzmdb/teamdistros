@@ -1,4 +1,4 @@
-- name: Name
+- title: Name
   component: dropdown
   default:
   options:
@@ -7,9 +7,9 @@
     - nodejs
     - php
     - python
-- name: Verion
+- title: Verion
   component: input
   default: latest
-- name: Test
+- title: Test
   component: input
   default: 

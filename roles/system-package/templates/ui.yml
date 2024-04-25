@@ -1,9 +1,9 @@
-- name: Name
+- title: Name
   component: input
   default:
-- name: Version
+- title: Version
   component: input
   default: latest
-- name: Test
+- title: Test
   component: input
   default: 
