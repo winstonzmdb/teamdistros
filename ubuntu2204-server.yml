@@ -7,29 +7,29 @@
   become: true
   gather_facts: true
   roles:
-    - title: toolchain
+    - name: toolchain
       vars:
         name: golang
-    - title: system-package
+    - name: system-package
       vars:
         name: neofetch
         version: latest
-    - title: system-package
+    - name: system-package
       vars:
         name: htop
         version: latest
-    - title: system-package
+    - name: system-package
       vars:
         name: tree
         version: latest
-    - title: system-package
+    - name: system-package
       vars:
         name: cowsay
         version: latest    
-    - title: folder
+    - name: folder
       vars:
         path: /opt/temp
-    - title: binary
+    - name: binary
       vars:
         url: https://s3.aws.com/
         dest: /opt/binary
