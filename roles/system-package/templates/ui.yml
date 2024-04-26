@@ -1,15 +1,9 @@
-- component: label
-  title: Name
-- component: input
+- name: Name
+  type: input
   default:
-  register: name
-- component: label
-  title: Version
-- component: input
+- name: Version
+  type: input
   default: latest
-  register: version
-- component: label
-  title: Test
-- component: input
+- name: Test
+  type: input
   default: 
-  register: test

@@ -1,6 +1,5 @@
-- component: label
-  title: Name
-- component: dropdown
+- name: Name
+  type: dropdown
   default:
   options:
     - golang
@@ -8,14 +7,6 @@
     - nodejs
     - php
     - python
-  register: name
-- component: label
-  title: Verion
-- component: input
-  default: latest
-  register: version
-- component: label
-  title: Test
-- component: input
-  default:
-  register: test
+- name: Test
+  type: input
+  default: 

@@ -1,17 +1,9 @@
-- component: label
-  title: URL
-- component: input
+- name: URL
+  type: input
   default:
-  register: url
-- component: label
-  title: Destination
-- component: input
+- name: Destination
+  type: input
   default: /opt/
-  validation: ^/opt/.*
-  description: Required to reside in /opt
-  register: destination
-- component: label
-  title: Test
-- component: input
-  default:
-  register: test
+- name: Test
+  type: input
+  default: 
