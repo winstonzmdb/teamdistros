@@ -1,5 +1,5 @@
 - name: Name
-  type: dropdown
+  component: dropdown
   default:
   options:
     - golang
@@ -8,5 +8,5 @@
     - php
     - python
 - name: Test
-  type: input
+  component: input
   default: 
