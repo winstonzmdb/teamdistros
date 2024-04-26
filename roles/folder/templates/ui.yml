@@ -1,6 +1,10 @@
-- title: Path
-  component: input
+- component: label
+  title: Path
+- component: input
   default:
-- title: Permissions
-  component: input
+  register: path
+- component: label
+  title: Permissions
+- component: input
   default: 755
+  register: permissions
