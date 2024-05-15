@@ -7,7 +7,7 @@
     - nodejs
     - php
     - python
-#     - ruby
-# - name: Test
-#   component: input
-#   default: 
+    - ruby
+- name: Test
+  component: input
+  default: 
