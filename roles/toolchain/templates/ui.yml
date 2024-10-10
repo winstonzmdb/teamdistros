@@ -8,6 +8,6 @@
     - php
     - python
     # - ruby
-- name: Test
-  component: input
-  default: 
+# - name: Test
+#   component: input
+#   default: 
