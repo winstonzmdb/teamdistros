@@ -1,0 +1,39 @@
+- hosts: all
+  vars:
+    user: ubuntu
+    group: ubuntu
+    limits_user: ubuntu
+    homedir: /home/ubuntu
+  become: true
+  gather_facts: true
+  roles:
+    - name: toolchain
+      vars:
+        name: golang
+    - name: system-package
+      vars:
+        name: neofetch
+        version: latest
+    - name: system-package
+      vars:
+        name: htop
+        version: latest
+    - name: system-package
+      vars:
+        name: tree
+        version: latest
+    - name: system-package
+      vars:
+        name: cowsay
+        version: latest
+    - name: folder
+      vars:
+        path: /opt/temp
+    - name: binary
+      vars:
+        url: https://s3.aws.com/
+        dest: /opt/binary
+    - name: folder
+      vars:
+        permissions: 755
+        path: /tmp/folder
